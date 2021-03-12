@@ -2,15 +2,15 @@
 VERSION = 5.0
 
 # paths
-PREFIX = /usr/local
-MANPREFIX = $(PREFIX)/share/man
+PREFIX = $(HOME)/.local
+MANPREFIX = $(XDG_DATA_HOME)/man
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
 
 # Xinerama, comment if you don't want it
-XINERAMALIBS  = -lXinerama
-XINERAMAFLAGS = -DXINERAMA
+# XINERAMALIBS  = -lXinerama
+# XINERAMAFLAGS = -DXINERAMA
 
 # freetype
 FREETYPELIBS = -lfontconfig -lXft

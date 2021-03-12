@@ -1,5 +1,6 @@
-# Luke's dmenu
+# Jannec's dmenu
 
+Forked from LukeSmithXYZ
 Extra stuff added to vanilla dmenu:
 
 - reads Xresources (ergo pywal compatible)
